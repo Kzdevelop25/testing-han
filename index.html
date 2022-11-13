@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,75 +11,148 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Learn Bootstrap</title>
   </head>
   <body>
-    <div class="container-fluid bg text-center">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">HannKZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">My Friend</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar Finish -->
+
+    <section class="jumbotron text-center">
       <img
         src="assets/img/FAVICON.jpg"
-        alt="Gambar Pertama"
-        class="rounded-circle"
+        alt="hero1"
+        class="rounded-circle border border-5 border-secondary"
       />
-      <h1>Hi, Im Rehann</h1>
-      <p>Web Developer | Design UI/UX</p>
-    </div>
+      <h1 class="display-4">HI, Im Rehan</h1>
+      <p class="lead">Web Developer | Fullstack Overflow</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d0b8e0"
+          fill-opacity="1"
+          d="M0,32L120,48C240,64,480,96,720,90.7C960,85,1200,43,1320,21.3L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
 
-    <section class="about" id="about">
+    <section id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center">About</h2>
-            <hr />
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-sm-6 text-center">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              vitae rem blanditiis omnis impedit maiores, ut adipisci voluptatem
-              nisi, tempora explicabo dicta praesentium accusamus soluta
-              consequatur saepe corrupti! Debitis, facere.
-            </p>
+        <div class="row justify-content-center fs-3 text-center mb-5">
+          <div class="col-lg-12">
+            <p class="caoi">hello i'm rehan, i made this portfolio just for fun and made this website only using the copy paste technique ;), i'm sory if there are still bugs or something thank you</p>
           </div>
-          <div class="col-sm-6 text-center">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              dolor culpa modi ex laboriosam fugit neque rem hic at dignissimos
-              necessitatibus officiis, itaque quibusdam, alias repellat
-              obcaecati delectus earum voluptatem.
-            </p>
+          </div>
+        </div>
+      </div>
+    </section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36005a" fill-opacity="1" d="M0,64L120,85.3C240,107,480,149,720,160C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="text-light mb-1">My Friend</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row text-light">
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets/img/faloo/IMG_20221113_211535.jpg" class="card-img-top" alt="ANJAY ">
+              <div class="card-body">
+                <h5 class="card-title">Bom-Bom</h5>
+                <p class="card-text">Naii Rewaaaa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 ">
+            <div class="card">
+              <img src="assets/img/faloo/IMG_20221113_210721.jpg" class="card-img-top" alt="ANJAY ">
+              <div class="card-body">
+                <h5 class="card-title">Angga</h5>
+                <p class="card-text">Kutandai Muka Nuuu, Aiih Ndak Pulang Mkoo Ini !!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5 " style="margin-bottom: 30px;">
+            <div class="card">
+              <img src="assets/img/faloo/IMG_20221113_211327.jpg" class="card-img-top" alt="ANJAY ">
+              <div class="card-body">
+                <h5 class="card-title">Fadil</h5>
+                <p class="card-text">Nda Tau Apa Mau Kutuliss</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36005a" fill-opacity="1" d="M0,32L80,53.3C160,75,320,117,480,154.7C640,192,800,224,960,224C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h2>Porfolio</h2>
-            <hr />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 mt-3">
-            <a href="#" class="img-thumbnail">
-              <img src="assets/img/FAVICON.jpg" alt="Gambar Ke 2" />
-            </a>
-          </div>
-          <div class="col-sm-6 mt-3">
-            <a href="#" class="img-thumbnail">
-              <img src="assets/img/FAVICON.jpg" alt="Gambar Ke 2" />
-            </a>
-          </div>
-          <div class="col-sm-6 mt-3">
-            <a href="#" class="img-thumbnail">
-              <img src="assets/img/FAVICON.jpg" alt="Gambar Ke 2" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <footer>
+        <p class="text-center fs-4">&copy;2022 rhn.kz <span class="fw-bolder">| All rights reserved</span></p>
+
+     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

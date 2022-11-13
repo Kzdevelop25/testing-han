@@ -1,27 +1,57 @@
-.bg {
-    background-color: #eaeaea;
-    padding: 20px 0 10px 0;
+:root {
+    --color-primary: #ff7b02;
+    --color-primary-variant: #e5a55d;
+    --color-bg-1: #140021;
+    --color-bg-2: #1e0032;
+    --color-bg-3: #25003e;
+    --color-bg-4: #36005a;
+    --color-light: #d0b8e0;
+    --color-white: hsl(0, 0%, 90%);
 }
 
-.container-fluid img {
-    width: 200px;
-    border: 5px solid #333;
+html {
+    scroll-behavior: smooth;
 }
 
-.about hr,
-.portfolio hr {
-    width: 250px;
-    border-top: 4px solid black;
-    margin: auto;
-    margin-bottom: 20px;
+nav {
+    background-color: var(--color-bg-2);
 }
 
-.container {
-    padding-top: 10px;
-    /* background-color: brown; */
+body {
+    background: var(--color-light);
+}
+
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: var(--color-bg-3);
+    color: #FFF;
+}
+
+.caoi {
+    text-transform: capitalize;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-white);
 }
 
 img {
+    width: 200px;
+    border: var(--color-light);
+}
 
-    width: 300px;
+
+#projects {
+    background: var(--color-bg-4)
+}
+
+.card {
+    background-color: var(--color-bg-3);
+}
+
+section {
+    padding-top: 5rem;
 }
