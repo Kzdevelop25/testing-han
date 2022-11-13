@@ -1,0 +1,27 @@
+.bg {
+    background-color: #eaeaea;
+    padding: 20px 0 10px 0;
+}
+
+.container-fluid img {
+    width: 200px;
+    border: 5px solid #333;
+}
+
+.about hr,
+.portfolio hr {
+    width: 250px;
+    border-top: 4px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding-top: 10px;
+    /* background-color: brown; */
+}
+
+img {
+
+    width: 300px;
+}
